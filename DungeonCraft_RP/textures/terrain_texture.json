@@ -1,0 +1,15 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "dungeoncraft",
+    "texture_data": {
+        "dungeon_stone": {
+            "textures": "textures/blocks/dungeon_stone"
+        },
+        "treasure_chest": {
+            "textures": "textures/blocks/treasure_chest"
+        },
+        "magic_lantern": {
+            "textures": "textures/blocks/magic_lantern"
+        }
+    }
+}
