@@ -1,0 +1,5 @@
+{
+    "flipbook_texture": "textures/blocks/magic_lantern",
+    "atlas_tile": "magic_lantern",
+    "ticks_per_frame": 10
+}
