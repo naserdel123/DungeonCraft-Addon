@@ -1,0 +1,62 @@
+{
+    "tiers": [
+        {
+            "trades": [
+                {
+                    "wants": [
+                        {
+                            "item": "dungeoncraft:ancient_coin",
+                            "quantity": 10
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "dungeoncraft:shadow_blade"
+                        }
+                    ]
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "dungeoncraft:ancient_coin",
+                            "quantity": 8
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "dungeoncraft:healing_staff"
+                        }
+                    ]
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "dungeoncraft:ancient_coin",
+                            "quantity": 5
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "dungeoncraft:dungeon_key",
+                            "quantity": 2
+                        }
+                    ]
+                },
+                {
+                    "wants": [
+                        {
+                            "item": "minecraft:diamond",
+                            "quantity": 3
+                        }
+                    ],
+                    "gives": [
+                        {
+                            "item": "dungeoncraft:ancient_coin",
+                            "quantity": 15
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
