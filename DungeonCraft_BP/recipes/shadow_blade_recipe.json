@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dungeoncraft:shadow_blade"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " # ",
+            " # ",
+            " X "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "X": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "dungeoncraft:shadow_blade",
+            "count": 1
+        }
+    }
+}
