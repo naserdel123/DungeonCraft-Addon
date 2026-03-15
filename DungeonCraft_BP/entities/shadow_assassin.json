@@ -1,0 +1,101 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "dungeoncraft:shadow_assassin",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["monster", "assassin", "dungeon", "undead"]
+            },
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.95
+            },
+            "minecraft:health": {
+                "value": 30,
+                "max": 30
+            },
+            "minecraft:attack": {
+                "damage": 8
+            },
+            "minecraft:movement": {
+                "value": 0.35
+            },
+            "minecraft:navigation.walk": {
+                "can_path_over_water": true,
+                "avoid_water": false
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:can_climb": {},
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 2,
+                "within_radius": 30,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 30
+                    }
+                ]
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3,
+                "speed_multiplier": 1.5,
+                "track_target": true
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1.0
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 7,
+                "look_distance": 10
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/shadow_assassin.json"
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:knockback_resistance": {
+                "value": 0.0
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:timer": {
+                "time": [10, 20],
+                "looping": true,
+                "time_down_event": {
+                    "event": "dungeoncraft:teleport"
+                }
+            }
+        },
+        "events": {
+            "dungeoncraft:teleport": {
+                "sequence": [
+                    {
+                        "filters": {
+                            "test": "has_target",
+                            "value": true
+                        },
+                        "run_command": {
+                            "command": "teleport @s ^ ^ ^3 facing @p"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
