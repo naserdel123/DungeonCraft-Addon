@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "dungeoncraft:treasure_chest",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.items"
+            }
+        },
+        "components": {
+            "minecraft:geometry": "geometry.treasure_chest",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "treasure_chest",
+                    "render_method": "alpha_test",
+                    "face_dimming": true,
+                    "ambient_occlusion": true
+                }
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds": 5.0
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 15
+            },
+            "minecraft:loot": "loot_tables/blocks/treasure_chest.json",
+            "minecraft:map_color": "#8B4513",
+            "minecraft:interact_button": "Open Chest"
+        }
+    }
+}
