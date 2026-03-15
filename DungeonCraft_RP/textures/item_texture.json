@@ -1,0 +1,18 @@
+{
+    "texture_name": "atlas.items",
+    "resource_pack_name": "dungeoncraft",
+    "texture_data": {
+        "shadow_blade": {
+            "textures": "textures/items/shadow_blade"
+        },
+        "healing_staff": {
+            "textures": "textures/items/healing_staff"
+        },
+        "ancient_coin": {
+            "textures": "textures/items/ancient_coin"
+        },
+        "dungeon_key": {
+            "textures": "textures/items/dungeon_key"
+        }
+    }
+}
