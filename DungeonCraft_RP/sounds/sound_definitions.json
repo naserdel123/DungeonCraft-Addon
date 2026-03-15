@@ -1,0 +1,26 @@
+{
+    "dungeon_golem_hit": {
+        "category": "hostile",
+        "sounds": [
+            "sounds/mob/dungeon_golem/hit"
+        ]
+    },
+    "dungeon_golem_death": {
+        "category": "hostile",
+        "sounds": [
+            "sounds/mob/dungeon_golem/death"
+        ]
+    },
+    "shadow_blade_swing": {
+        "category": "player",
+        "sounds": [
+            "sounds/item/shadow_blade/swing"
+        ]
+    },
+    "dungeon_ambience": {
+        "category": "ambient",
+        "sounds": [
+            "sounds/ambient/dungeon_ambience"
+        ]
+    }
+}
