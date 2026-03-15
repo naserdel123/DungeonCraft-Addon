@@ -1,0 +1,65 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.dungeon_golem": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": true
+                }
+            ]
+        },
+        "controller.render.shadow_assassin": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": true
+                }
+            ],
+            "color": {
+                "r": 0.8,
+                "g": 0.8,
+                "b": 0.9,
+                "a": 0.9
+            }
+        },
+        "controller.render.crystal_wisp": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "part_visibility": [
+                {
+                    "*": true
+                }
+            ],
+            "color": {
+                "r": "variable.r = 0.5 + math.sin(query.life_time * 200) * 0.5;",
+                "g": "variable.g = 0.8 + math.sin(query.life_time * 300) * 0.2;",
+                "b": "variable.b = 1.0;",
+                "a": 0.8
+            }
+        }
+    }
+}
