@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "dungeoncraft:healing_staff"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " #D",
+            " X#",
+            "X  "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:diamond"
+            },
+            "D": {
+                "item": "minecraft:emerald_block"
+            },
+            "X": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        "result": {
+            "item": "dungeoncraft:healing_staff",
+            "count": 1
+        }
+    }
+}
