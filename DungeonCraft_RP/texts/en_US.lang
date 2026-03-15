@@ -1,0 +1,20 @@
+## Entities
+entity.dungeoncraft:dungeon_golem.name=Dungeon Golem
+entity.dungeoncraft:shadow_assassin.name=Shadow Assassin
+entity.dungeoncraft:crystal_wisp.name=Crystal Wisp
+
+## Items
+item.dungeoncraft:shadow_blade.name=Shadow Blade
+item.dungeoncraft:healing_staff.name=Healing Staff
+item.dungeoncraft:ancient_coin.name=Ancient Coin
+item.dungeoncraft:dungeon_key.name=Dungeon Key
+
+## Blocks
+tile.dungeoncraft:dungeon_stone.name=Dungeon Stone
+tile.dungeoncraft:treasure_chest.name=Treasure Chest
+tile.dungeoncraft:magic_lantern.name=Magic Lantern
+
+## Spawn Eggs
+item.spawn_egg.entity.dungeoncraft:dungeon_golem.name=Spawn Dungeon Golem
+item.spawn_egg.entity.dungeoncraft:shadow_assassin.name=Spawn Shadow Assassin
+item.spawn_egg.entity.dungeoncraft:crystal_wisp.name=Spawn Crystal Wisp
